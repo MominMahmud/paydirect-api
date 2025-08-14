@@ -1,0 +1,4 @@
+:schedule:
+  process_due_subscriptions:
+    cron: "0 0 * * *"
+    class: "ProcessDueSubscriptionsJob"
